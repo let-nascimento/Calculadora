@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+body {
+    background-color: #f8fdf6;
+}
+
+.fundo {
+    background-image: url("https://media.discordapp.net/attachments/943142915704750113/1090489660658176010/image.png?width=520&height=427");
+}
+
+.calculadora {
+    position: absolute;
+    background-color: #ebe9e9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+    border-style: solid;
+    border-color: #00000025;
+    border-width: 2px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.137);
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: #c4c4c4;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: #02020228;
+    border-width: 2px;
+}
+
+button:hover {
+    background-color: #ffffff13;
+}
+
+.botao-rosa {
+    background-color: #c09eb6;
+}
+
+.botao-vermelho {
+    background-color: #c09e9e;
+}
+
+.botao-verde {
+    background-color: #a5c09e;
+}
+
+.botao-azul {
+    background-color: #9eadc0;
+}
+
+.botao-amarelo {
+    background-color: #e2d692;
+}
+
+.botao-laranja {
+    background-color: #e2b292;
+}
+
+.botao-roxo {
+    background-color: #d7a9e9;
+}
+
+#resultado {
+    width: 207px;
+    background-color: #dddbdb;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: #00000067;
+    text-align: right;
+    padding: 5px;
+}
